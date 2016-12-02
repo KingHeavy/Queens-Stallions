@@ -1,2 +1,4 @@
 # Queens-Stallions
-Jerkin's mission. Glory to greatest Serbia!
+Jerkin's mission. Sadly not greatest Serbia!
+
+
