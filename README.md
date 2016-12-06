@@ -1,4 +1,4 @@
-# Queens-Stallions
-Jerkin's mission. Sadly not greatest Serbia!
+n # Queens-Stallions
+Jerkin's mission; return to Chernarus.
 
 
