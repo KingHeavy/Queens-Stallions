@@ -1,4 +1,3 @@
-n # Queens-Stallions
-Jerkin's mission; return to Chernarus.
+1. Queens-Stallions Jerkin's mission; return to Chernarus.
 
 
