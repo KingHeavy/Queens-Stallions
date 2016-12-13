@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=16605;
+		nextID=16607;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1205;
+		nextID=1222;
 	};
 	class Camera
 	{
-		pos[]={4584.6235,413.15027,10234.693};
-		dir[]={-0.79894447,-0.55622476,-0.22924422};
-		up[]={-0.53485507,0.83064479,-0.15347809};
-		aside[]={-0.27577469,2.5410554e-006,0.96111465};
+		pos[]={4393.585,450.82288,10478.046};
+		dir[]={0.35666823,-0.57108039,-0.73953104};
+		up[]={0.24818276,0.82050276,-0.51457137};
+		aside[]={-0.90063047,3.8113212e-006,-0.43435889};
 	};
 };
 binarizationWanted=0;
@@ -471,6 +471,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -502,25 +521,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -846,6 +846,7 @@ class Mission
 				position[]={4471.397,339,10183.238};
 				angles[]={0,5.2786088,0};
 			};
+			name="ALiVE_SYS_LOGISTICS";
 			id=5;
 			type="ALiVE_require";
 			class CustomAttributes
@@ -2365,7 +2366,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="160";
+							value="0";
 						};
 					};
 				};
@@ -2722,7 +2723,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="100";
+							value="0";
 						};
 					};
 				};
@@ -3288,7 +3289,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CIV";
+							value="EAST";
 						};
 					};
 				};
@@ -3550,7 +3551,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="false";
+							value="true";
 						};
 					};
 				};

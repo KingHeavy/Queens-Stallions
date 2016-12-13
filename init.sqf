@@ -14,3 +14,5 @@ execVM "fn_advancedSlingLoadingInit.sqf";
 setTimeMultiplier 2; 
 
 [] execVM "VCOMAI\init.sqf";
+
+execVM "R3F_LOG\init.sqf";
