@@ -1,5 +1,3 @@
-execVM "R3F_LOG\init.sqf";
-
 execVM "briefing.sqf";
 
 call compile preprocessFile "staticData.sqf";
