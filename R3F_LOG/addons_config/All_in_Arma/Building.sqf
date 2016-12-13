@@ -54,8 +54,7 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["fortress2", 20],
 	["warfarebcamp", 30],
 	["misc_cargo_cont_small", 65],
-	["misc_cargo_cont_small2", 50],
-	["Land_Misc_Cargo1E_EP1", 110]
+	["misc_cargo_cont_small2", 50]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
