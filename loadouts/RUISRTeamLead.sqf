@@ -31,6 +31,7 @@ _unit addItemToBackpack "U_I_FullGhillie_sard";
 _unit addItemToBackpack "ACE_MX2A";
 _unit addItemToBackpack "Leupold_Mk4";
 _unit addItemToBackpack "tf_bussole";
+_unit addItemToBackpack "ACE_Wirecutter";
 for "_i" from 1 to 3 do {this addItemToBackpack "hlc_30Rnd_545x39_EP_ak";};
 _unit addItemToBackpack "ACE_Chemlight_IR";
 for "_i" from 1 to 2 do {this addItemToBackpack "Chemlight_green";};
