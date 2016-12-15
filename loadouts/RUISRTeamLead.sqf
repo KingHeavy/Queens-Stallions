@@ -1,0 +1,58 @@
+comment "Exported from Arsenal by LIM";
+private ["_unit"];
+_unit = _this select 0;
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+_unit forceAddUniform "rhs_uniform_gorka_r_g";
+for "_i" from 1 to 10 do {this addItemToUniform "ACE_elasticBandage";};
+_unit addItemToUniform "ACE_plasmaIV_500";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 15 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_epinephrine";};
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_tourniquet";};
+_unit addVest "LOP_V_6Sh92_Radio_OLV";
+_unit addItemToVest "rhs_1PN138";
+for "_i" from 1 to 3 do {this addItemToVest "hlc_30Rnd_545x39_S_AK";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rgd5";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_IR";};
+_unit addItemToVest "rhs_mag_nspn_green";
+_unit addBackpack "CUP_B_HikingPack_Civ";
+_unit addItemToBackpack "U_I_FullGhillie_sard";
+_unit addItemToBackpack "ACE_MX2A";
+_unit addItemToBackpack "Leupold_Mk4";
+_unit addItemToBackpack "tf_bussole";
+for "_i" from 1 to 3 do {this addItemToBackpack "hlc_30Rnd_545x39_EP_ak";};
+_unit addItemToBackpack "ACE_Chemlight_IR";
+for "_i" from 1 to 2 do {this addItemToBackpack "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_Chemlight_HiRed";};
+_unit addHeadgear "H_Cap_oli";
+_unit addGoggles "G_Balaclava_oli";
+
+comment "Add weapons";
+_unit addWeapon "hlc_rifle_aku12";
+_unit addPrimaryWeaponItem "rhs_acc_dtk4short";
+_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15A";
+_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+_unit addWeapon "CUP_hgun_PB6P9";
+_unit addHandgunItem "CUP_muzzle_PB6P9";
+_unit addWeapon "ACE_VectorDay";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "tf_anprc152_1";
+_unit linkItem "ItemGPS";
+
+comment "Set Medical Class";
+_unit setVariable ["ace_medical_medicClass",2];
