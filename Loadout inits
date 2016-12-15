@@ -1,45 +1,48 @@
 SF Team Leader, PSG and ODA TL's
 
-Null = [this,"loadoutfolder\RUSFTeamLead.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUSFTeamLead.sqf'"];
+Null = [this,"loadouts\RUSFTeamLead.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUSFTeamLead.sqf'"];
 
 ODA breacher
 
-Null = [this,"loadoutfolder\RUSFBreacher.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUSFBreacher.sqf'"];
+Null = [this,"loadouts\RUSFBreacher.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUSFBreacher.sqf'"];
 
 ODA Commo
 
-Null = [this,"loadoutfolder\RUSFCOMMO.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUSFCOMMO.sqf'"];
+Null = [this,"loadouts\RUSFCOMMO.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUSFCOMMO.sqf'"];
 
 ODA Medic
 
-Null = [this,"loadoutfolder\RUSFMedic.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUSFMedic.sqf'"];
+Null = [this,"loadouts\RUSFMedic.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUSFMedic.sqf'"];
 
 ODA DM
 
-Null = [this,"loadoutfolder\RUSFSniper.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUSFSniper.sqf'"];
+Null = [this,"loadouts\RUSFSniper.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUSFSniper.sqf'"];
 
 ODA Weapons
 
-Null = [this,"loadoutfolder\RUSFWeapons.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUSWeapons.sqf'"];
+Null = [this,"loadouts\RUSFWeapons.sqf"] execVM "loadoutS\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadoutS\RUSWeapons.sqf'"];
 
 ISR TL and Spotters
 
-Null = [this,"loadoutfolder\RUISRTeamLead.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUISRTeamLead.sqf'"];
+Null = [this,"loadoutS\RUISRTeamLead.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUISRTeamLead.sqf'"];
 
 ISR Drone Operators
 
-Null = [this,"loadoutfolder\RUISROperator.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUISROperator.sqf'"];
+Null = [this,"loadouts\RUISROperator.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUISROperator.sqf'"];
 
 ISR Snipers
 
-Null = [this,"loadoutfolder\RUISRSniper.sqf"] execVM "loadoutfolder\loadoutController.sqf";
-this addeventhandler ["respawn","_this execVM 'loadoutfolder\RUISRSniper.sqf'"];
+Null = [this,"loadouts\RUISRSniper.sqf"] execVM "loadouts\loadoutController.sqf";
+this addeventhandler ["respawn","_this execVM 'loadouts\RUISRSniper.sqf'"];
 
+UAZ
+
+[this] execVM "loadouts\SFUAZ.sqf";
